@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="kk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>ИС-20-1</title>
+  </head>
+  <body>
+    <!-- Сілтемелер (сайт төбесінде тұрады) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">Басты</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">Біз</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">Группа</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">Автор</a>
+    </div>
+  </div>
+</div>
+
+<!-- Суреті бар хэдер -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-center">
+    <h1><span class="w3-text-black">ИС-20-1</span></h1>
+    <p>Қорқыт Ата атындағы Қызылорда университетінің ИС-20-1 группасының сайтына қош келдіңіз!</p>
+  </div>
+</header>
+
+<!-- Барлық бетке бэкграунд-колер және үлкен мәтін қос -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- Біз жайлы контейнері -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h4 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Біз жайлы</span></h4>
+    <p>Біз ИС-20-1 группасының студенттеріміз. Группа 2020 оқу жылы құрылған, 2024 жылы 6B06149 - 
+      "Ақпараттық жүйелер" мамандығын бітіреміз. Қазір 3 курстамыз. Мамандық "Инженерлі-технологиялық 
+      институтының" "Компьютерлік ғылымдар" кафедрасына қарайды.</p>
+    <p>Группа да 29 студент бар. Олардың ішінде 
+      активистер, олимпиада жеңімпаздары, конференция қатысушылары, академиялық ұтқырлық сайысының иегерлері да бар. Группа эдвайзері - Бексейтова Айнұр.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Ел болып бірігуден асқан бақыт жоқ."</i></p>
+      <p>Білге қаған</p>
+    </div>
+    <img src="images/photo.jpg" style="width:100%;max-width:1000px" class="w3-margin-top" alt="ИС-20-1 логотипі">
+  </div>
+</div>
+
+<!-- Группа тізімі контейнері -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h4 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Группа тізімі</span></h4>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">Қыздар</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">Ұлдар</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Абусадық Айзере</h5>
+      <p class="w3-text-grey">Туған күні: 23.01.200X</p><br>
+    
+      <h5>Асқарова Жанасыл</h5>
+      <p class="w3-text-grey">Туған күні: 26.05.200X</p><br>
+    
+      <h5>Ақылова Ақниет</h5>
+      <p class="w3-text-grey">Туған күні: 04.07.200X</p><br>
+    
+      <h5>Бақыт Адема</h5>
+      <p class="w3-text-grey">Туған күні: 26.09.200X</p><br>
+    
+      <h5>Батырханқызы Гаухар</h5>
+      <p class="w3-text-grey">Туған күні: 14.06.200X</p><br>
+
+      <h5>Әбдуайт Жанар</h5>
+      <p class="w3-text-grey">Туған күні: 11.11.200X</p><br>
+
+      <h5>Канапия Аружан</h5>
+      <p class="w3-text-grey">Туған күні: 13.08.200X</p><br>
+
+      <h5>Молдиман Аружан</h5>
+      <p class="w3-text-grey">Туған күні: 04.12.200X</p><br>
+
+      <h5>Мәлік Мауыты</h5>
+      <p class="w3-text-grey">Туған күні: 02.08.200X</p><br>
+
+      <h5>Нұрадинқызы Гүлжауһар</h5>
+      <p class="w3-text-grey">Туған күні: 16.04.200X</p><br>
+
+      <h5>Серікбаева Қасиет</h5>
+      <p class="w3-text-grey">Туған күні: 03.02.200X</p><br>
+
+      <h5>Тұрғанбаева Перизат</h5>
+      <p class="w3-text-grey">Туған күні: 13.10.200X</p><br>
+
+      <h5>Ықылас Асылзат</h5>
+      <p class="w3-text-grey">Туған күні: 10.11.200X</p><br>
+
+      <h5>Тілеубергенова Диана</h5>
+      <p class="w3-text-grey">Туған күні: 04.06.200X</p>
+    </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Абуұлы Жомарт</h5>
+      <p class="w3-text-grey">Туған күні: 25.05.2002</p><br>
+    
+      <h5>Асылбек Абай</h5>
+      <p class="w3-text-grey">Туған күні: 22.04.2003</p><br>
+    
+      <h5>Бұхарбаев Нұрдәулет</h5>
+      <p class="w3-text-grey">Туған күні: 13.05.2003</p><br>
+    
+      <h5>Боранбай Темірлан</h5>
+      <p class="w3-text-grey">Туған күні: 08.01.2003</p><br>
+    
+      <h5>Қорғанбек Бекзат</h5>
+      <p class="w3-text-grey">Туған күні: 27.12.2001</p><br>
+    
+      <h5>Демесін Ернұр</h5>
+      <p class="w3-text-grey">Туған күні: 04.04.2002</p><br>
+    
+      <h5>Итешов Елен</h5>
+      <p class="w3-text-grey">Туған күні: 20.09.2003</p><br>
+    
+      <h5>Өмірзақ Асанхан</h5>
+      <p class="w3-text-grey">Туған күні: 09.05.2003</p><br>
+
+      <h5>Салайдын Асылжан</h5>
+      <p class="w3-text-grey">Туған күні: 13.08.2000</p><br>
+    
+      <h5>Тұран Даниял</h5>
+      <p class="w3-text-grey">Туған күні: 09.09.2003</p><br>
+    
+      <h5>Ербол Елжас</h5>
+      <p class="w3-text-grey">Туған күні: 21.09.2003</p><br>
+    
+      <h5>Көбейсін Ернар</h5>
+      <p class="w3-text-grey">Туған күні: 23.01.2003</p><br>
+
+      <h5>Бақытжанов Ерлан</h5>
+      <p class="w3-text-grey">Туған күні: 23.01.2001</p><br>
+
+      <h5>Қожахметов Сұлтан</h5>
+      <p class="w3-text-grey">Туған күні: 22.02.2003</p><br>
+
+      <h5>Өмірбай Жантөре</h5>
+      <p class="w3-text-grey">Туған күні: 05.06.2003</p>
+    </div>  
+  </div>
+</div>
+
+<!-- Автор жайлы контейнері -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h4 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Автор жайлы</span></h4>
+    <p>Бұл сайттың авторы - ИС-20-1 тобының студенті <strong>Демесін Ернұр.</strong></p>
+    <p>Сайт "GRAND master" бағдарламалау мектебінен өндірістік практикадан өту барысында жасалған.</p>
+    <p>Қолданылған құралдар:</p>
+    <ul>
+      <li><a href="https://www.w3schools.com/w3css/tryw3css_templates_cafe.htm" target="_blank">Сайт темасы</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web" target="_blank">MDN ресурсының "Вебті бастау" курсы</a></li>
+      <li><a href="https://github.com/Indemeros/Indemeros.github.io" target="_blank">Вебсайттың GitHub-тағы коды</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Сайт соңы контенті -->
+</div>
+
+<!-- Футер -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p><a href="#home" class="w3-hover-text-green">Жоғарыға қайту</a></p>
+</footer>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
